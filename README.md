@@ -27,4 +27,7 @@ An initial exploration for using a generative image pipeline for anonymization o
 - Run the generate_pipeline.py, change the input directories if needed
 - The generated augmentations will be put in the results directory
 
-- To create the pixelized, blurred, and obscured images run the make_base_comparisons.py 
+- To create the pixelized, blurred, and obscured images run the make_base_comparisons.py
+
+## Testing
+The four anomaly detectors MNAD, MPN, LNTRA, LGN-Net are provided as clones from their respective repositories together with the frame level annotations
