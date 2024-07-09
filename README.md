@@ -11,7 +11,7 @@ An initial exploration for using a generative image pipeline for anonymization o
 7. The generated animated frames are segmented and blended into the larger image
 
 ## Requirements
-
+*Full requirements file coming soon*
 - Pytorch > 2.2.0, CUDA 11.8, torchvision
 - Diffusers library - [https://github.com/huggingface/diffusers](https://github.com/huggingface/diffusers) 
 - Pandas, numpy
@@ -26,3 +26,5 @@ An initial exploration for using a generative image pipeline for anonymization o
 - The pre-processed images will be put in the pre_processing directory
 - Run the generate_pipeline.py, change the input directories if needed
 - The generated augmentations will be put in the results directory
+
+- To create the pixelized, blurred, and obscured images run the make_base_comparisons.py 
