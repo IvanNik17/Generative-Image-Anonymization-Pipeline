@@ -27,7 +27,7 @@ def prompt_randomize ():
 
 
 
-    visual_prompt = f'"<ali-1-4-CCTV>", "(small hips)++", "(fully clothed)++", "{random.choice(skincolor_list)}", "{random.choice(gender_list)}", "{random.choice(height_list)} height", "{random.choice(body_shape_list)}", "({random.choice(job_list)})++", "{random.choice(hair_list)} hair", "{random.choice(color_cloths_list)} {random.choice(bottom_cloths_list)}", "{random.choice(color_cloths_list)} {random.choice(top_cloths_list)}", "{random.choice(shoes_list)}", "{random.choice(activity_list)}"'
+    visual_prompt = f'"<ali-1-4-CCTV>", "(fully clothed)++", "{random.choice(skincolor_list)}", "{random.choice(gender_list)}", "{random.choice(height_list)} height", "{random.choice(body_shape_list)}", "({random.choice(job_list)})++", "{random.choice(hair_list)} hair", "{random.choice(color_cloths_list)} {random.choice(bottom_cloths_list)}", "{random.choice(color_cloths_list)} {random.choice(top_cloths_list)}", "{random.choice(shoes_list)}", "{random.choice(activity_list)}"'
 
     positive_prompt = f'[{visual_prompt} ,"(Not that colorful)++", "(muted colors)++", "(desaturated)+", "(pure white background)+","(blank background)+++", "clean background","highly detailed","4k photo", "(not sporty)", "(fully clothed)"].and()'
 
